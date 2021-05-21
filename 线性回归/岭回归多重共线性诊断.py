@@ -3,7 +3,7 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 import pandas as pd
 # get_loc(i) 返回对应列名所在的索引
 
-data = pd.read_excel('4.岭回归数据.xlsx')
+data = pd.read_excel('岭回归数据.xlsx')
 
 x= data
 
