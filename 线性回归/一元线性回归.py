@@ -36,4 +36,5 @@ plt.xlabel("x")
 plt.ylabel("y")
 
 # 显示图形
+plt.savefig('一元线性回归.png',dpi=300)
 plt.show()
