@@ -2,9 +2,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
 
 data = pd.read_csv(r'3.titanic_data/train.csv')
