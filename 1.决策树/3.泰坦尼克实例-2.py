@@ -44,7 +44,8 @@ GS = GS.fit(Xtrain,Ytrain)
 # 打印最佳组合及得分
 print(GS.best_params_)
 print(GS.best_score_)
+
 '''
-{'criterion': 'gini', 'max_depth': 6, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 11, 'splitter': 'random'}
-0.8120327700972861
+{'criterion': 'entropy', 'max_depth': 6, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'splitter': 'best'}
+0.8264464925755248
 '''
