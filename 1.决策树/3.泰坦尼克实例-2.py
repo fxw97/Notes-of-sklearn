@@ -45,6 +45,7 @@ GS = GS.fit(Xtrain,Ytrain)
 print(GS.best_params_)
 print(GS.best_score_)
 
+
 '''
 {'criterion': 'entropy', 'max_depth': 6, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'splitter': 'best'}
 0.8264464925755248
